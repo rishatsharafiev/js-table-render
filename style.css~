@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+table {
+	background-color: #AC66D5;
+	margin:10% auto;
+	border-spacing: 0px;
+	border: 1px solid black;
+}
+
+td {
+	border: 1px solid black;
+	width: 120px;
+}
+
+tr:first-child > td:hover {
+	background-color: #9D3ED5;
+}
